@@ -28,7 +28,8 @@ body {
     font-size: 14px;
 }
 
-.work-container {
+.img-container {
+    margin: 0 auto;
     max-width: 290px;
     overflow: hidden;
     display: flex;
