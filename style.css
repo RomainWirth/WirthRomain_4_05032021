@@ -28,6 +28,13 @@ body {
     font-size: 14px;
 }
 
+.work-container {
+    max-width: 290px;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 /* *********************** */
 
 a,
