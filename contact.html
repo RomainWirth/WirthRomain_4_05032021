@@ -89,24 +89,31 @@
 						<label>
 							NOM
 						</label>
-						<input id="name" class="form-control" required />
+						<input id="name" class="form-control" required placeholder="NOM Prénom"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Adresse email
 						</label>
-						<input id="email" class="form-control" type="email" required />
+						<input id="email" class="form-control" type="email" required placeholder="email@domaine.com"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<select name="liste-deroulante">
+							<option value="critere1">Bouche à oreille</option>
+							<option value="critere2">Capagne de publicité</option>
+							<option value="critere3">Internet</option>
+							<option value="critere4">Réseaux sociaux</option>
+							<option value="critere5">Autre</option>
+						</select>
+						<input class="form-control" type="email" required id="input_504" placeholder="autre préciser"/>
 					</div>
 					<div class="form-group">
 						<label>
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label><textarea id="message" class="form-control" rows="4" cols="50" required placeholder="votre projet"></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
