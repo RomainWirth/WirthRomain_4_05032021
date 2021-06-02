@@ -16,6 +16,11 @@ body {
     Justify-content : center;
 }
 
+.titre {
+    display: flex;
+    justify-content : center;
+}
+
 .texte {
     font-size: 20px;
 }
